@@ -1,0 +1,1 @@
+var textNode = figma.createText()

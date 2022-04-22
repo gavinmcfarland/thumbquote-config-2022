@@ -1,0 +1,10 @@
+<script>
+   fetchQuote().then((quote) => {
+      parent.postMessage({
+         pluginMessage: {
+            type: "post-quote",
+            data: quote,
+         },
+      }, "*")
+   })
+</script>

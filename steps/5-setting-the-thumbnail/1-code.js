@@ -1,0 +1,1 @@
+setFileThumbnailNodeAsync(frameNode)
