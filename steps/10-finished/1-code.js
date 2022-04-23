@@ -1,8 +1,8 @@
 async function main() {
    var frameNode = figma.createFrame()
 
-   frameNode.name = "Thumbnail"
    frameNode.resize(960, 480)
+
    frameNode.fills = [
       {
          type: "SOLID",
@@ -36,7 +36,7 @@ async function main() {
       }
    }
 
-   await figma.setFileThumbnailNodeAsync(frameNode).then(() => {})
+   await figma.setFileThumbnailNodeAsync(frameNode).then(() => { })
 
    figma.closePlugin()
 }

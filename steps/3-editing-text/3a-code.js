@@ -1,3 +1,5 @@
+// ...
+
 figma.loadFontAsync(textNode.fontName).then(() => {
-   textNode.characters = '<Text here>'
+   textNode.characters = "I love Figma";
 })

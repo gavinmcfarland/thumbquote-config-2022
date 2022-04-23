@@ -1,4 +1,10 @@
 <script>
+   async function fetchQuote() {
+      const res = await fetch("https://api.quotable.io/random")
+      const quote = await res.json()
+      return quote.content
+   }
+
    fetchQuote().then((quote) => {
       parent.postMessage({
          pluginMessage: {

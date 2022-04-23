@@ -4,13 +4,4 @@
       const quote = await res.json()
       return quote.content
    }
-
-   fetchQuote().then((quote) => {
-      parent.postMessage({
-         pluginMessage: {
-            type: "post-quote",
-            data: quote,
-         },
-      }, "*")
-   })
 </script>

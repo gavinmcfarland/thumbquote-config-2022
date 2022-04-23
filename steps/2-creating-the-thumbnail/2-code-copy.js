@@ -6,9 +6,9 @@ frameNode.fills = [
    {
       type: "SOLID",
       color: {
-         r: 255 / 255,
-         g: 144 / 255,
-         b: 255 / 255,
+         r: 0,
+         g: 0,
+         b: 0,
       },
    },
 ]

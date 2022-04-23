@@ -12,3 +12,11 @@ frameNode.fills = [
       },
    },
 ]
+
+var textNode = figma.createText()
+
+frameNode.append(textNode)
+
+figma.loadFontAsync(textNode.fontName).then(() => {
+   textNode.characters = "I love Figma";
+})

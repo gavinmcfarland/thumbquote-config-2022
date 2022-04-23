@@ -2,5 +2,8 @@
   "dependencies": {
     "tsc": "^2.0.4",
     "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.44.0"
   }
 }

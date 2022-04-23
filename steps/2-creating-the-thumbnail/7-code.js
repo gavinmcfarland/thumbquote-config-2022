@@ -12,3 +12,7 @@ frameNode.fills = [
       },
    },
 ]
+
+var textNode = figma.createText()
+
+frameNode.append(textNode)
