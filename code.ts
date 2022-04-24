@@ -20,7 +20,7 @@ async function main() {
 
    await figma.loadFontAsync(textNode.fontName)
 
-   figma.showUI(__html__, { visible: false })
+   figma.showUI(__html__)
 
    figma.ui.onmessage = (msg) => {
       if (msg.type === "post-quote") {
@@ -38,7 +38,7 @@ async function main() {
 
    await figma.setFileThumbnailNodeAsync(frameNode).then(() => {})
 
-   figma.closePlugin()
+   // figma.closePlugin()
 }
 
 main()

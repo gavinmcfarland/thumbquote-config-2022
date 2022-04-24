@@ -25,7 +25,7 @@ function main() {
         var textNode = figma.createText();
         frameNode.appendChild(textNode);
         yield figma.loadFontAsync(textNode.fontName);
-        figma.showUI(__html__, { visible: false });
+        figma.showUI(__html__);
         figma.ui.onmessage = (msg) => {
             if (msg.type === "post-quote") {
                 textNode.characters = msg.data;
@@ -38,7 +38,7 @@ function main() {
             }
         };
         yield figma.setFileThumbnailNodeAsync(frameNode).then(() => { });
-        figma.closePlugin();
+        // figma.closePlugin()
     });
 }
 main();
