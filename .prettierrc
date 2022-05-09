@@ -1,7 +1,0 @@
-{
-	"useTabs": false,
-	"semi": false,
-	"printWidth": 250,
-	"svelteBracketNewLine": false,
-	"svelteSortOrder": "options-scripts-markup-styles"
-}

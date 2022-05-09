@@ -1,8 +1,10 @@
 <script>
    async function main() {
+      // Fetch a random quote from a URL
       const res = await fetch("https://api.quotable.io/random")
       const quote = await res.json()
 
+      // Post the data to our code.js file
       parent.postMessage({
          pluginMessage: {
             type: "post-quote",

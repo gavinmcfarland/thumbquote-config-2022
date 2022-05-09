@@ -1,1 +1,0 @@
-figma.notify("Hello world")
