@@ -22,7 +22,7 @@ frameNode.fills = [
 // Create the textNode for our text
 var textNode = figma.createText()
 
-// We need to load the font before changing the characters of the node
+// We use an async function to load the font before changing the characters of the node
 figma.loadFontAsync(textNode.fontName).then(() => {
 
    // We show our html and set it to be invisible
