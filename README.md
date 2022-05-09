@@ -54,7 +54,7 @@ In my talk, I show how you can use the await keyword to make your code a bit cle
 
 5. **Now run the plugin**
 
-   You can re-run the plugin in Figma by holding down `cmd/ctrl + P`
+   You can re-run the plugin in Figma by pressing `cmd/ctrl + P`
 
 
 When you're developing you can run `npm run watch` instead and this will watch for any changes to your `code.ts` file so you don't have to keep running the build command.
