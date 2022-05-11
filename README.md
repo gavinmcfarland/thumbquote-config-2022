@@ -63,9 +63,10 @@ For more advice please follow the [Figma API Setup Guide](https://www.figma.com/
 
 ## Other useful links
 
-- [Fish Shell](https://fishshell.com/) - Provides syntax highlighting for the terminal and makes it a bit easier to use
 - [MDN JavaScript First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps) - A good intro into the basics of JavaScript
 - [Codecadamy](https://www.codecademy.com/) - A great place to level up your JavaScript, HTML and CSS skills
+- [Fish Shell](https://fishshell.com/) - Provides syntax highlighting for the terminal and makes it a bit easier to use
 - [Figma Plugin Samples](https://github.com/figma/plugin-samples) - Other Figma plugin and widget examples
+- [Fignite Helpers](https://github.com/fignite/helpers) - A collection of useful functions for Figma plugins
 
 
